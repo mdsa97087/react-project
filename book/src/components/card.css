@@ -1,0 +1,28 @@
+.appDiv{
+      /* border: 5px solid blue; */
+      width: 80vw;
+      margin: auto;
+      text-align: center;
+      margin-top: 50px;
+
+}
+
+.cardDiv{
+      /* border: 2px solid red; */
+      /* display: flex; */
+      width:25vw ;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.fictionDiv{
+      /* border: 2px solid black; */
+      /* display: flex; */
+}
+.books-container{
+      /* border: 3px solid green; */
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 30px;
+      text-align: center;
+      margin: auto;
+
+}
